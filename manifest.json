@@ -1,0 +1,12 @@
+{
+  "name": "deflectiq",
+  "category": "RAG",
+  "architecture": "chain of responsibility (escalation ladder)",
+  "interface": "interactive CLI \u2014 python -m sdr --demo",
+  "testing": "decision-matrix contract",
+  "demo_cmd": "python -m sdr --demo",
+  "test_cmd": "python -m pytest tests -q",
+  "entry_points": [
+    "sdr/__main__.py"
+  ]
+}
